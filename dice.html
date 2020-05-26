@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice</title>
+    <link rel="icon" href="images/dice1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Dice-Challenge</h1>
+      <h2>Tap the Start button to play</h2>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" onclick="ran1()" src="images/dice6.png">
+      </div>
+
+      <div class="dice" >
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png" onclick="ran2()">
+      </div>
+      <div class="button">
+        <span class="btn" onclick="btn()">START</span>
+        <a class="btn" href="dice.html">RESET</a>
+        <p class="para">player with highest dice value wins</p>
+      </div>
+
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+
+  <footer>
+    www 🎲 github 🎲 com / RockeR2601
+  </footer>
+</html>
