@@ -27,7 +27,11 @@ function ran2(){
         else{
             document.querySelector("h2").innerHTML=" 🚩 Player 2 Wins 🎉 ";
         }
-        document.querySelector(".para").innerHTML="Tap the Reset button to start again"; 
+        document.querySelector(".para").innerHTML="Tap the Reset button to start again";
+        
+        document.querySelector(".img2").removeEventListener("click",ran2);
+        document.querySelector(".img1").removeEventListener("click",ran1); 
+        
 }
 
 
