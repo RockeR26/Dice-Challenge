@@ -69,7 +69,7 @@ footer {
 }
 
 .img1:hover{
-  transform: rotate(-45deg);
+  transform: rotate(135deg);
 }
 .img2:hover{
   transform: rotate(45deg)
