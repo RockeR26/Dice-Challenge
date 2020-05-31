@@ -67,10 +67,3 @@ footer {
   padding: 0rem;
   margin: 0rem;
 }
-
-.img1:hover{
-  transform: rotate(25deg);
-}
-.img2:hover{
-  transform: rotate(25deg);
-}

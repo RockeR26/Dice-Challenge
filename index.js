@@ -12,12 +12,14 @@ function btn(){
 
 function ran1(){
         document.querySelector(".img1").setAttribute("src","images/dice"+rand1+".png");
+        $(".img1").fadeOut(150).fadeIn(150);
         document.querySelector("h2").innerHTML="Player 2 tap the dice";
         document.querySelector(".img2").addEventListener("click",ran2);
 }
 
 function ran2(){
         document.querySelector(".img2").setAttribute("src","images/dice"+rand2+".png");
+        $(".img2").fadeOut(150).fadeIn(150);
         if(rand1>rand2){
             document.querySelector("h2").innerHTML="🚩 Player 1 Wins 🎉";
         }
